@@ -1,0 +1,73 @@
+---
+title: | 
+    | Social Ecological Networks Group 
+    | General Meeting 
+date: "1/28/2021"
+output: 
+    bookdown::pdf_document2:
+        latex_engine: pdflatex
+header-includes:
+    \usepackage[default,regular,bold]{sourceserifpro}
+    \usepackage[T1]{fontenc}
+    \DeclareUnicodeCharacter{0301}{\'{e}}
+    \usepackage{titling}
+    \pretitle{\begin{center}\LARGE\includegraphics[width=4cm]{SENG_Logo.png}\\[\bigskipamount]}
+    \posttitle{\end{center}}
+link-citations: yes
+linestretch: 1.3
+indent: false
+fontsize: "12pt"
+linkcolor: blue
+toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Introductions 
+
+We waited until 5:30 and then started with introductions. Harrison Fried, Chelsea Hunter, Fabio Correa, Andrew Mitchel, Madison Anderson, Kimberly Ordonez, Priya Bhattacharya, Matthew Walker, and Shane Scaggs were in attendance. If you could not attend, please check out the link below! 
+
+# Goals and Ideas 
+
+We discussed goals and ideas. If you have goals or ideas, please use [this form](https://docs.google.com/forms/d/e/1FAIpQLSeGS3qp-IuHK94ZunPNKeGtmbXJmnVRy4cQxTZ-3CkOvcbdzQ/viewform?usp=sf_link) to submit them to the group!
+
+ 
+
+Shane proposed that we hold a theory meeting and methods meeting each month to develop a common language. Shane volunteered to host the first two meetings (with Harrison's help), but in the future, each meeting will be hosted by others members of SENG. We will archive these meetings in our [github repository](https://github.com/sascaggs/seng) and possibly as blog posts. Over time, the content in these meetings will be used to develop a SENG course on social-ecological networks that we can all use in our careers. 
+
+Fabio suggested that we discuss open data sets related to social ecological research. We might be able to collaborate on research in the future. A Slack channel called **#datasets-and-analysis** has been created that will focus on this discussion. 
+
+Madison mentioned her interest in learning methods of network analysis. This will be the focus of our second meeting each month. 
+
+# Meeting Structure 
+
+Theory meetings:
+
+- Held the 2nd week of every month 
+- 1st theory meeting: *nodes* and *edges* and *what is a network?*
+
+Methods workshops:
+
+- Held the 4th week of every month
+- 1st methods workshop: network structure and manipulation in R, and basics of network visualization in R. 
+
+Fridat afternoons have tentatively been suggested for both meetings, but use [this poll](https://www.when2meet.com/?10874186-X4FXw) to indicate your availability. 
+
+# Website 
+
+Shane wants to add people to the website as [Contributors](https://seng.netlify.app/people/). Use the [contributors form](https://docs.google.com/forms/d/e/1FAIpQLSe2WsvgP3ur8Dp40oYrVnBdwZ2dZQ9XleUvlBWCLqerf6GZOA/viewform?usp=sf_link) to provide the information that you want displayed on the website. 
+
+If you have ideas about content we could add to the website, please share! 
+
+We talked about the [Canon](https://seng.netlify.app/canon/). Look there for starting references. If you have inspiring articles to add to the canon, please send them to the **#reading-list** channel on slack.
+
+> **We want to highlight diverse perspectives and identities in our canon. Please be mindful of this when contributing readings.**
+
+# Other announcements 
+
+- The Computation Social Science group is hosting a Research Short and Sweet. Anyone can participate ([sign up here](https://osu.az1.qualtrics.com/jfe/form/SV_86d5XzW4wCb1TBX)) and present a brief 3 minute synopsis of their research interests. This is a great way to network with computational scientists and represent SENG! 
+
+- In lieu of creating a listserv, please utilize the slack channel if you have anything to share. Contact Shane about creating a channel or getting admin permissions for the slack page. 
